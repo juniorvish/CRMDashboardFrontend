@@ -1,0 +1,66 @@
+/* tables.css */
+
+/* Invoices Table */
+#invoices-table {
+  @apply w-full mt-8 rounded-lg shadow-md overflow-hidden;
+}
+
+#invoices-table th {
+  @apply bg-gray-100 text-left text-sm font-medium text-gray-500 uppercase tracking-wider p-6;
+}
+
+#invoices-table td {
+  @apply text-sm p-6;
+}
+
+/* Aged Payables Table */
+#aged-payables {
+  @apply w-full mt-8 rounded-lg shadow-md overflow-hidden;
+}
+
+#aged-payables th {
+  @apply bg-gray-100 text-left text-sm font-medium text-gray-500 uppercase tracking-wider p-6;
+}
+
+#aged-payables td {
+  @apply text-sm p-6;
+}
+
+/* Total Revenue Table */
+#total-revenue {
+  @apply w-full mt-8 rounded-lg shadow-md overflow-hidden;
+}
+
+#total-revenue th {
+  @apply bg-gray-100 text-left text-sm font-medium text-gray-500 uppercase tracking-wider p-6;
+}
+
+#total-revenue td {
+  @apply text-sm p-6;
+}
+
+/* PnL Table */
+#pnl {
+  @apply w-full mt-8 rounded-lg shadow-md overflow-hidden;
+}
+
+#pnl th {
+  @apply bg-gray-100 text-left text-sm font-medium text-gray-500 uppercase tracking-wider p-6;
+}
+
+#pnl td {
+  @apply text-sm p-6;
+}
+
+/* Income Sources Table */
+#income-sources {
+  @apply w-full mt-8 rounded-lg shadow-md overflow-hidden;
+}
+
+#income-sources th {
+  @apply bg-gray-100 text-left text-sm font-medium text-gray-500 uppercase tracking-wider p-6;
+}
+
+#income-sources td {
+  @apply text-sm p-6;
+}
