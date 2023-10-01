@@ -1,0 +1,48 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom CSS for Home Page */
+body {
+    @apply bg-gray-100;
+}
+
+#dashboard {
+    @apply flex flex-col items-center justify-center min-h-screen;
+}
+
+#hey-message {
+    @apply text-2xl font-bold text-gray-700 mb-4;
+}
+
+#main-content {
+    @apply grid grid-cols-3 gap-4;
+}
+
+#main-content > div {
+    @apply bg-white p-4 rounded shadow;
+}
+
+#sidebar {
+    @apply bg-white w-64 h-full fixed left-0 top-0 overflow-auto shadow;
+}
+
+#sidebar .company-name {
+    @apply text-xl font-bold text-gray-700 mb-4;
+}
+
+#sidebar ul {
+    @apply list-none p-0 m-0;
+}
+
+#sidebar ul li {
+    @apply mb-2;
+}
+
+#sidebar ul li a {
+    @apply text-gray-600 hover:text-gray-700;
+}
+
+#sidebar ul li a.active {
+    @apply text-gray-700 font-bold;
+}
