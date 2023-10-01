@@ -1,0 +1,57 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Sidebar Styles */
+.sidebar {
+    @apply w-64 h-screen bg-gray-800 text-white fixed top-0 left-0 overflow-y-auto;
+}
+
+.sidebar .company-name {
+    @apply text-2xl font-bold p-4;
+}
+
+.sidebar .nav-links {
+    @apply flex flex-col gap-2 p-4;
+}
+
+.sidebar .nav-links a {
+    @apply text-lg font-medium hover:bg-gray-700 p-2 rounded;
+}
+
+.sidebar .nav-links a.active {
+    @apply bg-gray-700;
+}
+
+/* Custom Classes */
+.custom-border-radius {
+    @apply rounded-lg;
+}
+
+.custom-color {
+    @apply text-blue-500;
+}
+
+.custom-padding {
+    @apply p-4;
+}
+
+.custom-margin {
+    @apply m-4;
+}
+
+.custom-font {
+    @apply font-bold text-lg;
+}
+
+.custom-bg {
+    @apply bg-gray-800;
+}
+
+.custom-text {
+    @apply text-white;
+}
+
+.custom-hover {
+    @apply hover:bg-gray-700;
+}
