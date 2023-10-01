@@ -1,0 +1,88 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Accounts Page CSS */
+
+/* Sidebar */
+.sidebar {
+  @apply bg-gray-800 text-white w-64 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:translate-x-0 transition duration-200 ease-in-out;
+}
+
+.sidebar:hover {
+  @apply translate-x-0;
+}
+
+.sidebar .company-name {
+  @apply text-2xl font-semibold;
+}
+
+.sidebar .nav-item {
+  @apply flex items-center space-x-3;
+}
+
+.sidebar .nav-item .icon {
+  @apply w-5 h-5;
+}
+
+.sidebar .nav-item .text {
+  @apply text-sm;
+}
+
+/* Main Content */
+.main-content {
+  @apply bg-gray-100 flex-1 p-6 md:mt-16;
+}
+
+.main-content .header {
+  @apply flex justify-between items-center;
+}
+
+.main-content .header .search-wrapper {
+  @apply bg-white shadow-md rounded-md flex items-center space-x-2 pl-3 pr-10 py-2;
+}
+
+.main-content .header .search-wrapper .search {
+  @apply text-sm text-gray-600;
+}
+
+.main-content .header .search-wrapper .icon {
+  @apply w-5 h-5 text-gray-500;
+}
+
+.main-content .header .user-wrapper {
+  @apply bg-white shadow-md rounded-md flex items-center space-x-2 pl-3 pr-10 py-2;
+}
+
+.main-content .header .user-wrapper .avatar {
+  @apply w-8 h-8;
+}
+
+.main-content .header .user-wrapper .user-info {
+  @apply text-sm;
+}
+
+.main-content .header .user-wrapper .user-info .name {
+  @apply text-gray-600;
+}
+
+.main-content .header .user-wrapper .user-info .role {
+  @apply text-gray-500;
+}
+
+.main-content .header .user-wrapper .icon {
+  @apply w-5 h-5 text-gray-500;
+}
+
+/* Accounts Table */
+.accounts-table {
+  @apply mt-6 bg-white shadow-md rounded-md overflow-hidden;
+}
+
+.accounts-table .table-header {
+  @apply bg-gray-200 text-gray-600 uppercase text-sm leading-normal;
+}
+
+.accounts-table .table-row {
+  @apply text-gray-700 text-sm leading-normal;
+}
