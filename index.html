@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRMDashboardFrontend</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/graphs.css" rel="stylesheet">
+    <link href="css/tables.css" rel="stylesheet">
+    <link href="css/sidebar.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/contacts.css" rel="stylesheet">
+    <link href="css/customers.css" rel="stylesheet">
+    <link href="css/accounts.css" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <h1 class="company-name">Company Name</h1>
+        <object data="sidebar/home.html"></object>
+        <object data="sidebar/contacts.html"></object>
+        <object data="sidebar/customers.html"></object>
+        <object data="sidebar/accounts.html"></object>
+    </div>
+    <div class="main-content">
+        <h2 class="hey-message">Hey Vish</h2>
+        <div class="staggered-layout">
+            <object data="graphs/bar_chart.html"></object>
+            <object data="graphs/pie_chart.html"></object>
+            <object data="tables/invoices.html"></object>
+            <object data="tables/aged_payables.html"></object>
+            <object data="tables/total_revenue.html"></object>
+            <object data="tables/pnl.html"></object>
+            <object data="tables/income_sources.html"></object>
+        </div>
+    </div>
+</body>
+</html>
