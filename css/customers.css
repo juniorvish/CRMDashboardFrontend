@@ -1,0 +1,53 @@
+/* customers.css */
+
+/* Using Tailwind CSS to create custom classes for the customers page */
+
+.container {
+  @apply flex flex-wrap justify-center;
+}
+
+.customer-card {
+  @apply bg-white rounded-lg shadow-md m-4 p-6 max-w-xs;
+}
+
+.customer-name {
+  @apply text-xl font-bold mb-2;
+}
+
+.customer-details {
+  @apply text-gray-700 text-sm;
+}
+
+.customer-email {
+  @apply text-blue-500 hover:text-blue-700 underline;
+}
+
+.customer-phone {
+  @apply mt-4 text-gray-500;
+}
+
+.customer-address {
+  @apply mt-2 text-gray-500;
+}
+
+.customer-card:hover {
+  @apply shadow-lg;
+}
+
+/* Custom classes for the sidebar */
+
+.sidebar {
+  @apply bg-gray-800 text-white w-64 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:translate-x-0 transition duration-200 ease-in-out;
+}
+
+.sidebar-link {
+  @apply text-white hover:text-gray-300;
+}
+
+.sidebar-link:hover {
+  @apply bg-gray-700;
+}
+
+.sidebar-logo {
+  @apply text-3xl font-bold mb-8;
+}
