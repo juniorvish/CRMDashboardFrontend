@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link href="../css/tailwind.css" rel="stylesheet">
+    <link href="../css/contacts.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="sidebar bg-white h-screen w-64 absolute sm:relative sm:h-auto sm:w-full pt-4 pb-4">
+        <div class="company-name text-2xl mb-4 pl-4 font-bold">Company Name</div>
+        <div class="pl-4 text-gray-500">
+            <a href="home.html" class="block py-1">Home</a>
+            <a href="contacts.html" class="block py-1 text-blue-500">Contacts</a>
+            <a href="customers.html" class="block py-1">Customers</a>
+            <a href="accounts.html" class="block py-1">Accounts</a>
+        </div>
+    </div>
+    <div class="main-content ml-64 sm:ml-0 pt-6 sm:pt-0 px-4">
+        <h1 class="text-2xl font-bold mb-4">Contacts</h1>
+        <div class="contacts-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="contact-card bg-white p-4 rounded shadow">
+                <h2 class="text-xl font-bold mb-2">John Doe</h2>
+                <p class="text-gray-500">johndoe@example.com</p>
+                <p class="text-gray-500">(123) 456-7890</p>
+            </div>
+            <!-- More contact cards... -->
+        </div>
+    </div>
+</body>
+</html>
