@@ -1,0 +1,41 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom CSS for Contacts Page */
+
+.contacts-container {
+    @apply bg-white rounded-lg shadow-md p-6;
+}
+
+.contacts-header {
+    @apply text-2xl font-bold mb-4;
+}
+
+.contact-card {
+    @apply bg-gray-100 rounded-lg shadow-sm p-4 mb-4 flex items-center justify-between;
+}
+
+.contact-name {
+    @apply text-lg font-semibold;
+}
+
+.contact-email {
+    @apply text-sm text-gray-500;
+}
+
+.contact-phone {
+    @apply text-sm text-gray-500;
+}
+
+.contact-actions {
+    @apply flex items-center space-x-2;
+}
+
+.contact-edit {
+    @apply text-blue-500 cursor-pointer;
+}
+
+.contact-delete {
+    @apply text-red-500 cursor-pointer;
+}
